@@ -1,6 +1,6 @@
 html {
     margin: 2;
-    padding: 0;
+    padding: 1;
     background: #faebd7;
 
 }
@@ -19,5 +19,10 @@ p {
 
 h1 {
     text-align: center;
+    color: green
+}
+
+a {
+    margin: auto;
     color: green
 }
