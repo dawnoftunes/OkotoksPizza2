@@ -15,6 +15,7 @@ html {
 p {
     text-align: center;
     color: firebrick;
+    font-size: larger;
 }
 
 h1 {
@@ -26,3 +27,11 @@ a {
     margin: auto;
     color: green
 }
+
+h2 {
+    text-align: center;
+    color: red;
+    font-size: large;
+}
+
+#Top{}
