@@ -46,6 +46,26 @@ iframe {
     margin: auto
 }
 
+a {
+    display: block;
+    width: 60%;
+    padding: 10px;
+    margin: auto
+    
+}
+
+section {
+    font-size: large;
+}
+
+footer {
+    font-size: x-large;
+    text-align: center;
+    color: black
+    
+    
+
+}
 
 
 
