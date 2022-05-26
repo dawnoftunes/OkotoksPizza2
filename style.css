@@ -10,33 +10,38 @@ html {
     margin-left: auto;
     margin-right: auto;
     
+    
+    
 }
 
 p {
     text-align: center;
     color: firebrick;
-    font-size: larger;
+    font-size: x-large;
+    
+
 }
 
 h1 {
     text-align: center;
-    color: green
+    
 }
 
 a {
     margin: auto;
-    color: green
+    
 }
 
 h2 {
     text-align: center;
-    color: red;
+    
     font-size: large;
 }
 
 header {
     text-align: center;
     font-size: xx-large;
+    line-height: 2;
 }
 
 iframe {
@@ -44,6 +49,7 @@ iframe {
     width: 60%;
     padding: 10px;
     margin: auto
+
 }
 
 a {
@@ -62,10 +68,90 @@ footer {
     font-size: x-large;
     text-align: center;
     color: black
+}
+
+div>header {
+
+    font-size: 40px;
+    box-shadow: 40px 40px 40px;
+    color: rgb(85, 66, 42);
+    background-color: rgb(220, 200, 173);
     
+}
+
+section a {
+
+    color:blue;
     
 
 }
 
+footer :hover {
 
+    box-shadow: 4px 4px 10px ;
+    background-color: aquamarine;
+}
+    
+p {
 
+    font-family: cursive;
+ }   
+
+ h1 b {
+
+    box-shadow: 40px 40px 40px;
+    color: rgb(109, 90, 65);
+    
+ }
+
+ .zoom:hover {
+
+    transform: scale(1.75);
+ }
+
+ section>header {
+
+    font-size: 35px;
+    box-shadow: 40px 40px 40px;
+    color: rgb(85, 66, 42);
+    background-color: rgb(220, 200, 173);
+
+    
+ }
+
+ a {
+
+    line-height: 3;
+ }
+
+ div>h2 {
+
+    color: firebrick;
+
+ }
+
+section>img {
+
+    -webkit-filter: blur(4px);
+    filter:blur(4px)
+}
+
+section>h2 {
+
+    font-size: large;
+    color: firebrick;
+}
+
+nav>header {
+
+    font-size: 35px;
+    box-shadow: 40px 40px 40px;
+    color:rgb(85, 66, 42);
+    background-color: rgb(220, 200, 173);
+    
+}
+
+div>footer {
+
+    color: rgb(85, 66, 42);
+}
