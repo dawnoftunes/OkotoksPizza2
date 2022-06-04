@@ -1,0 +1,58 @@
+#menu_container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+
+}
+img {
+    width: 100%
+}
+#head_of {
+    display: grid;
+    grid-auto-flow: column;
+    box-shadow: 40px 40px 40px;
+    color: rgb(85, 66, 42);
+    background-color: rgb(220, 200, 173);
+
+}
+#head_of>img {
+    width: 50px;
+    height: 50px;
+}
+header {
+    text-justify: center;
+    font-size: 3em;
+
+}
+html { 
+    background: #faebd7;
+}
+.foodtypes {
+
+    box-shadow: 40px 40px 40px;
+    color: rgb(85, 66, 42);
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 30px;
+}
+#menu_container {
+    color: rgb(85, 66, 42);
+    font-size: 1.25em;
+    
+}
+#pasta_container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    column-gap: 20px;
+    color: rgb(85, 66, 42);
+    font-size: 1.25em;
+
+}
+section>img {
+    width: 40px;
+    height: 40px;
+}
+
+ 
