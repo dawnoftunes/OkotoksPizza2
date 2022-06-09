@@ -1,7 +1,6 @@
 #menu_container {
     display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     column-gap: 20px;
 
 }
@@ -12,14 +11,11 @@ img {
     display: grid;
     grid-auto-flow: column;
     box-shadow: 40px 40px 40px;
-    color: rgb(85, 66, 42);
-    background-color: rgb(220, 200, 173);
+    color: black;
+    background-color: rgb(220,200, 173);
+    text-align: center;
+}
 
-}
-#head_of>img {
-    width: 50px;
-    height: 50px;
-}
 header {
     text-justify: center;
     font-size: 3em;
@@ -31,28 +27,50 @@ html {
 .foodtypes {
 
     box-shadow: 40px 40px 40px;
-    color: rgb(85, 66, 42);
+    color: black;
     text-align: center;
     font-size: 2.5em;
     padding-top: 30px;
+    background-color: rgb(220, 200, 173);
 }
 #menu_container {
-    color: rgb(85, 66, 42);
+    color: black;
     font-size: 1.25em;
     
 }
 #pasta_container {
     display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     column-gap: 20px;
-    color: rgb(85, 66, 42);
+    color: black;
     font-size: 1.25em;
 
 }
 section>img {
     width: 40px;
     height: 40px;
+}
+#logo2  {
+    width: 350px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+@media only screen and (min-width: 600px) {
+    #logo2{
+        width: 400px;}
+    
+}
+
+
+
+
+@media only screen and (min-width: 1000px) {
+    h1{
+        color: firebrick;}
+    
 }
 
  

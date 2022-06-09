@@ -1,7 +1,7 @@
 html {
     margin: 2;
     padding: 1;
-    background: #faebd7;
+    background-color: #faebd7;
 
 }
 
@@ -9,6 +9,7 @@ html {
     display:block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
     
 }
 
@@ -25,7 +26,7 @@ h1 {
 }
 
 a {
-    margin: auto;
+    margin: 20px;
     
 }
 
@@ -53,7 +54,8 @@ a {
     display: block;
     width: 60%;
     padding: 10px;
-    margin: auto
+    margin: auto;
+    color: rgb(85, 66, 42);
     
 }
 
@@ -73,12 +75,13 @@ div>header {
     box-shadow: 40px 40px 40px;
     color: rgb(85, 66, 42);
     background-color: rgb(220, 200, 173);
+    margin: 30px;
     
 }
 
 section a {
 
-    color:blue;
+    color:rgb(85, 66, 42);
     
 
 }
@@ -96,6 +99,7 @@ footer :hover {
     box-shadow: 40px 40px 40px;
     color: rgb(109, 90, 65);
     
+    
  }
 
  .zoom:hover {
@@ -110,6 +114,7 @@ footer :hover {
     color: rgb(85, 66, 42);
     background-color: rgb(220, 200, 173);
     line-height: 3;
+    margin: 30px;
 
     
  }
@@ -156,4 +161,28 @@ div>footer {
     grid-auto-flow: column;
     
 }
+.button {
+    transition: 8px;
+    background-color: rgb(220, 200, 173);
+    padding: 10px;
+}
 
+#contact {
+    display: grid; width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(250px 1fr));
+    row-gap: 10px;
+}
+#pages {
+    display: grid; 
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(250px 1fr));
+    row-gap: 10px;
+}
+#party {
+    display: grid; 
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(250px 1fr));
+    row-gap: 10px;
+}
+
+    
