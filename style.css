@@ -194,6 +194,28 @@ div>footer {
     grid-template-columns: repeat(auto-fit, minmax(250px 1fr));
     row-gap: 10px;
 }
+@keyframes Happening {
+    0%{
+        font-size: 15px;
+        background-color: aqua;
+    } 
+    50% {
+        font-size: 30px;
+        background-color: darksalmon;
+    }
+
+    100% {
+        font-size: 25px;
+        background-color: blueviolet;
+    }    
+
+    }
+.animate :hover {
+    animation-name: Happening;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    
+}
 
 
 
